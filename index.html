@@ -1,129 +1,424 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-        <title>Vivien Chagnon</title>
 
-        <!-- CSS  -->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="Projet-Vivien/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    </head>
-    <body>
-        <nav class="light-blue lighten-1" role="navigation">
-            <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Vivien Chagnon</a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#">Qui suis-je?</a></li>
-                    <li><a href="#">Mon parcours</a></li>
-                    <li><a href="#">Mes passions</a></li>
-                    <li><a href="#">Autres</a></li>
-                </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vivien Chagnon - CV">
 
-                <ul id="nav-mobile" class="side-nav">
-                    <li><a href="#">Qui suis-je?</a></li>
-                    <li><a href="#">Mon parcours</a></li>
-                    <li><a href="#">Mes passions</a></li>
-                    <li><a href="#">Autres</a></li>
-                </ul>
+    <title>Vivien Chagnon - CV</title>
 
-                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-            </div>
-        </nav>
-        <div class="section no-pad-bot" id="index-banner">
-            <div class="container">
-                <br><br>
-                <h1 class="header center orange-text">Starter Template</h1>
-                <div class="row center">
-                    <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-                </div>
-                <div class="row center">
-                    <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-                </div>
-                <br><br>
+    <!-- Web Fonts : police-->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap core CSS : Framework CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Font Awesome CSS : banque d'icone-->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <!-- Animate css : Fluidifie l'apparition des elements -->
+    <link href="assets/css/animate.css" rel="stylesheet">
 
-            </div>
-        </div>
+    <!-- fichier css  -->
+    <link href="assets/css/style.css" rel="stylesheet" media="screen">
+    <!-- Responsive CSS : rend le css responsive -->
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="assets/images/ico/icone.png">
+
+</head>
+
+<body>
+<!-- Preloader -->
+<div id="tt-preloader">
+    <div id="pre-status">
+        <div class="preload-placeholder"></div>
+    </div>
+</div>
+
+<!-- Home Section -->
+<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+    <div class="intro">
+        <h1>Vivien <span>Chagnon</span></h1>
+        <p>
+            Je m’appelle Vivien Chagnon, j’ai 21 ans et je viens de Clermont-Ferrand. <br> Je suis très intéressé par le
+            marketing digital et l’écosystème high-tech. Récemment admis à Toulouse Business School, <br>je postule
+            actuellement à la Junior-Entreprise ESCadrille au pôle Systèmes d’Information – Webmarketing et voici mon
+            Curriculum Vitae !
+        </p>
+        <div class="social-icons">
+            <ul class="list-inline">
+                <li><a href="https://www.facebook.com/vivien.nonchag"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/VivChag"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div> <!-- /.social-icons -->
+    </div>
+
+</section>
+<!-- End Home Section -->
 
 
+<!-- Navigation -->
+<header class="header">
+    <nav class="navbar navbar-custom" role="navigation">
         <div class="container">
-            <div class="section">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Vivien Chagnon</a>
+            </div>
 
-                <!--   Icon Section   -->
+            <div class="collapse navbar-collapse" id="custom-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#apropos">A propos</a></li>
+                    <li><a href="#formation">Formations</a></li>
+                    <li><a href="#experience">Experiences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div><!-- .container -->
+    </nav>
+</header><!-- End Navigation -->
+
+
+<!-- About Section -->
+<section id="apropos" class="about-section section-padding">
+    <div class="container">
+        <h2 class="section-title wow fadeInUp">A propos</h2>
+
+        <div class="row">
+
+            <div class="col-md-4 col-md-push-8">
+                <div class="biography">
+                    <div class="myphoto">
+                        <img src="assets/images/maphoto.jpg" alt="">
+                    </div>
+                    <ul>
+                        <li><strong>Nom:</strong> Vivien Chagnon</li>
+                        <li><strong>Date de naissance:</strong> 10 septembre 1996</li>
+                        <li><strong>Adresse:</strong> 21 rue lancefoc 31000 TOULOUSE </li>
+                        <li><strong>Nationalité:</strong> Française</li>
+                        <li><strong>Téléphone:</strong> 06.47.51.48.09</li>
+                        <li><strong>Email:</strong> chagnon.vivien@orange.fr</li>
+                    </ul>
+                </div>
+            </div> <!-- col-md-4 -->
+
+            <div class="col-md-8 col-md-pull-4">
                 <div class="row">
-                    <div class="col s12 m4">
-                        <div class="icon-block">
-                            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-                            <h5 class="center">Speeds up development</h5>
+                    <div class="short-info wow fadeInUp">
+                        <h3>Objectifs</h3>
+                        <p>
+                            Acteur remarquable et reconnu sur le marché du conseil, intégrer ESCadrille représenterait
+                            pour
+                            moi une grande opportunité de m’ouvrir à ce domaine tant j’ai à cœur d’intégrer une
+                            association
+                            permettant un vrai contact avec le monde professionnel. J’ai l’intime conviction que cette
+                            association
+                            constitue pour moi le moyen le plus efficace de mettre à profit mes connaissances et
+                            d'acquérir
+                            les savoirs pratiques et les skills nécessaires à la construction de mon début de carrière
+                            tout
+                            en forgeant des amitiés sincères.
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
 
-                            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                    <div class="short-info wow fadeInUp ">
+                        <h3>Centre d'interêts</h3>
+
+                        <div class="centre-interets">
+                            <div class="col-md-3 ">
+                                <img class="img-circle" src="assets/images/centre-interets/CI_musique2.jpg">
+                                <p class="title_CI">Musique</p>
+                            </div>
+                            <div class="col-md-3 col-md-push-1">
+                                <img class="img-circle" src="assets/images/centre-interets/CI_esport2.jpg">
+                                <p class="title_CI">E-sport</p>
+                            </div>
+                            <div class="col-md-3 col-md-push-2 ">
+                                <img class="img-circle" src="assets/images/centre-interets/CI_sport2.jpg">
+                                <p class="title_CI">Sport</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="short-info wow fadeInUp">
+                        <h3>Compétences</h3>
+
+                        <br>
+                        <div class="skill-progress">
+                            <div class="col-md-8">
+                                <div class="skill-title"><h3>Anglais</h3></div>
+
+                                <div class="progress">
+                                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90"
+                                         aria-valuemin="0" aria-valuemax="100"><span>90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="skill-title"><h3>90%</h3></div>
+                            </div>
+
+                        </div>
+
+                        <div class="skill-progress">
+                            <div class="col-md-8">
+                                <div class="skill-title"><h3>Espagnol</h3></div>
+                                <div class="progress">
+                                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70"
+                                         aria-valuemin="0" aria-valuemax="100"><span>70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="skill-title"><h3>70%</h3></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="col-md-8">
+                                <div class="skill-title"><h3>Langue des signes</h3></div>
+                                <div class="progress">
+                                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="100"
+                                         aria-valuemin="0" aria-valuemax="100"><span>100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="skill-title"><h3>100%</h3></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="download-button">
+                        <a class="btn btn-info btn-lg" href="#contact"><i
+                                class="fa fa-paper-plane"></i>Contactez-moi</a>
+                        <a class="btn btn-primary btn-lg" href="assets/ressources/CV.pdf" target="_blank"><i
+                                class="fa fa-download"></i>Télécharger mon CV</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+</section><!-- End About Section -->
+
+<!-- Resume Section -->
+<section id="formation" class="resume-section section-padding">
+    <div class="container">
+        <h2 class="section-title wow fadeInUp">Formations</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="resume">
+                    <ul class="timeline">
+                        <li>
+                            <div class="posted-date">
+                                <span class="month">2017-2020</span>
+                            </div><!-- /posted-date -->
+
+                            <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-content">
+                                    <div class="timeline-heading">
+                                        <h3>Toulouse Business School, L3 PGE</h3>
+                                        <span>Ecole de commerce à Toulouse</span>
+                                    </div><!-- /timeline-heading -->
+
+                                </div> <!-- /timeline-content -->
+                            </div><!-- /timeline-panel -->
+                        </li>
+
+                        <li class="timeline-inverted">
+                            <div class="posted-date">
+                                <span class="month">2014-2017</span>
+                            </div><!-- /posted-date -->
+
+                            <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-content">
+                                    <div class="timeline-heading">
+                                        <h3>Ecole préparatoire économique et commerciale, option scientifique</h3>
+                                        <span>Lycée Blaise Pascal à Clermont-Ferrand</span>
+                                    </div><!-- /timeline-heading -->
+
+                                </div> <!-- /timeline-content -->
+                            </div> <!-- /timeline-panel -->
+                        </li>
+
+                        <li>
+                            <div class="posted-date">
+                                <span class="month">2011-2014</span>
+                            </div><!-- /posted-date -->
+
+                            <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-content">
+                                    <div class="timeline-heading">
+                                        <h3>Baccalauréat série S, mention Très Bien et BIA (Brevet d'Initiation aéronautique)</h3>
+                                        <span>Lycée Lafayette à Clermont-Ferrand</span>
+                                    </div><!-- /timeline-heading -->
+
+                                </div> <!-- /timeline-content -->
+                            </div><!-- /timeline-panel -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div><!-- /row -->
+
+    </div><!-- /.container -->
+</section><!-- End Resume Section -->
+
+<section id="experience" class="resume-section section-padding">
+    <div class="container">
+        <h2 class="section-title wow fadeInUp">Experiences</h2>
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="resume">
+                    <ul class="timeline">
+                        <li>
+                            <div class="posted-date">
+                                <span class="month">2014</span>
+                            </div><!-- /posted-date -->
+
+                            <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-content">
+                                    <div class="timeline-heading">
+                                        <h3>Travail d'été</h3>
+                                        <span>Le Réservoir Sté, Secteur chaudronnerie, Montluçon</span>
+                                    </div><!-- /timeline-heading -->
+
+                                    <div class="timeline-body">
+                                        <p>Accueil téléphonique et orientation des clients</p>
+                                        <p>Réception marchandise et service emballage</p>
+                                    </div><!-- /timeline-body -->
+                                </div> <!-- /timeline-content -->
+                            </div><!-- /timeline-panel -->
+                        </li>
+
+                        <li class="timeline-inverted">
+                            <div class="posted-date">
+                                <span class="month">2012-2014</span>
+                            </div><!-- /posted-date -->
+
+                            <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-content">
+                                    <div class="timeline-heading">
+                                        <h3>Arbitre officiel ligue régionale</h3>
+                                        <span>FFHB, Secteur sportif, Auvergne</span>
+                                    </div><!-- /timeline-heading -->
+
+                                    <div class="timeline-body">
+                                        <p>Arbitrage de match de handball de -14 ans à sénior</p>
+                                        <p>Gestion de match, formation</p>
+                                    </div><!-- /timeline-body -->
+                                </div> <!-- /timeline-content -->
+                            </div> <!-- /timeline-panel -->
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div><!-- /row -->
+    </div><!-- /.container -->
+</section><!-- End Resume Section -->
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section section-padding">
+    <div class="container">
+        <h2 class="section-title wow fadeInUp">Contact</h2>
+
+        <div class="row">
+
+
+            <div class="col-md-12">
+                <div class="row center-xs">
+                    <div class="col-sm-4">
+                        <i class="fa fa-map-marker"></i>
+                        <address>
+                            <strong>Adresse</strong>
+                            21 rue lancefoc<br>
+                            31000 Toulouse, France<br>
+                        </address>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <i class="fa fa-mobile"></i>
+                        <div class="contact-number">
+                            <strong>Numéro de téléphone</strong>
+                            06.47.51.48.09
                         </div>
                     </div>
 
-                    <div class="col s12 m4">
-                        <div class="icon-block">
-                            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-                            <h5 class="center">User Experience Focused</h5>
-
-                            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                    <div class="col-sm-4">
+                        <i class="fa fa-envelope"></i>
+                        <div class="contact-number">
+                            <strong>Email</strong>
+                            chagnon.vivien@orange.fr
                         </div>
                     </div>
+                </div>
 
-                    <div class="col s12 m4">
-                        <div class="icon-block">
-                            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-                            <h5 class="center">Easy to work with</h5>
-
-                            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                <div class="row" style="display: none">
+                    <div class="col-sm-12">
+                        <div class="location-map">
+                            <div id="mapCanvas" class="map-canvas"></div>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <br><br>
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section>
+
+
+<footer class="footer-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="copyright text-center">
+                    <p>Vivien Chagnon - Tous droits réservés</p>
+                </div>
+            </div>
         </div>
-
-        <footer class="page-footer orange">
-            <div class="container">
-                <div class="row">
-                    <div class="col l6 s12">
-                        <h5 class="white-text">Company Bio</h5>
-                        <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+    </div>
+</footer>
 
 
-                    </div>
-                    <div class="col l3 s12">
-                        <h5 class="white-text">Settings</h5>
-                        <ul>
-                            <li><a class="white-text" href="#!">Link 1</a></li>
-                            <li><a class="white-text" href="#!">Link 2</a></li>
-                            <li><a class="white-text" href="#!">Link 3</a></li>
-                            <li><a class="white-text" href="#!">Link 4</a></li>
-                        </ul>
-                    </div>
-                    <div class="col l3 s12">
-                        <h5 class="white-text">Connect</h5>
-                        <ul>
-                            <li><a class="white-text" href="#!">Link 1</a></li>
-                            <li><a class="white-text" href="#!">Link 2</a></li>
-                            <li><a class="white-text" href="#!">Link 3</a></li>
-                            <li><a class="white-text" href="#!">Link 4</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-copyright">
-                <div class="container">
-                    Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-                </div>
-            </div>
-        </footer>
-
-
-        <!--  Scripts-->
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="js/materialize.js"></script>
-        <script src="Projet-Vivien/js/init.js"></script>
-
-    </body>
+<!-- Javascript files -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.stellar.min.js"></script>
+<script src="assets/js/jquery.sticky.js"></script>
+<script src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/jquery.countTo.js"></script>
+<script src="assets/js/jquery.inview.min.js"></script>
+<script src="assets/js/jquery.easypiechart.js"></script>
+<script src="assets/js/jquery.shuffle.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+<script src="assets/js/jquery.fitvids.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+<script src="assets/js/scripts.js"></script>
+</body>
 </html>
