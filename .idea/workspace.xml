@@ -2,11 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a288273-89a4-411b-a8a3-cd2d97ea4204" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/centre-interets/CI_esport.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/centre-interets/CI_musique.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/centre-interets/CI_sport.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/myphoto.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/ico/icone.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/blog/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/blog/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/blog/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/centre-interets/CI_esport.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/centre-interets/CI_musique.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/centre-interets/CI_sport.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/counter-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/hire-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/home-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/ico/apple-touch-icon-114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/ico/apple-touch-icon-144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/ico/apple-touch-icon-57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/ico/apple-touch-icon-72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/ico/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maphoto2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/service-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sign-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sign.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/video-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/works/portfolio-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/works/portfolio-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/works/portfolio-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/works/portfolio-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/works/portfolio-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/works/portfolio-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/works/portfolio-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/works/portfolio-8.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +47,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="367" column="34" lean-forward="false" selection-start-line="367" selection-start-column="34" selection-end-line="367" selection-end-column="34" />
+            <state relative-caret-position="107">
+              <caret line="404" column="0" lean-forward="true" selection-start-line="404" selection-start-column="0" selection-end-line="404" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -57,6 +83,7 @@
       <find>downl</find>
       <find>Skills</find>
       <find>Compéte</find>
+      <find>mapho</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,6 +170,13 @@
               <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="centre-interets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Projet-Vivien" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Vivien" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ico" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -183,7 +217,7 @@
       <option name="presentableId" value="Default" />
       <updated>1507383275035</updated>
       <workItem from="1507383276633" duration="2738000" />
-      <workItem from="1507386173635" duration="7103000" />
+      <workItem from="1507386173635" duration="7976000" />
     </task>
     <task id="LOCAL-00001" summary="0.3&#10;&#10;new tempalte mamene">
       <created>1507386279375</created>
@@ -196,7 +230,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9841000" />
+    <option name="totallyTimeSpent" value="10714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -265,10 +299,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/maphoto.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="367" column="34" lean-forward="false" selection-start-line="367" selection-start-column="34" selection-end-line="367" selection-end-column="34" />
+        <state relative-caret-position="107">
+          <caret line="404" column="0" lean-forward="true" selection-start-line="404" selection-start-column="0" selection-end-line="404" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
